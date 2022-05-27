@@ -1,6 +1,7 @@
 import apizabbix
 
-# Adiocionado filtro que exclui para remover os grupos de são de templates
+# Adiocionado filtro q para remover os grupos de são de templates
+# English: Add filter to remove groups that aren't templates
 
 api = apizabbix.connect()
 hostgroups = api.hostgroup.get(
@@ -9,6 +10,8 @@ hostgroups = api.hostgroup.get(
     search={'name': 'Templates'
             }
 )
+# Loop para imprimir apenas os nomes de grupos
+# English: Loop just to print groups names
 
 for hostgroup in hostgroups:
     print(hostgroup['name'])
