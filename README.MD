@@ -1,7 +1,7 @@
 # Python With Zabbix
 
 
-This is a repository where you'll some Python molules using Zabbix API. I hope you enjoy it!!!
+This is a repository where you'll find some Python molules using Zabbix API. I hope you enjoy it!!!
 
 
  
